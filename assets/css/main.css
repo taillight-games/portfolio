@@ -1434,7 +1434,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table, blockquote, form {
-		margin-bottom: 2em;
+		/*margin-bottom: 2em;*/
 	}
 
 /* Table */
@@ -1558,6 +1558,11 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+		}
+
+		.image.fit_hover {
+			display: block;
+			width: 100%
 		}
 
 		.image.featured {
@@ -1945,9 +1950,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
+		border-radius: 10px;
 		position: relative;
 		overflow: hidden;
-		width: 100%; 
+		width: 100%;
 		/* 	MAIN COLOR */
 		background: #000000;
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
@@ -2212,4 +2218,59 @@ a
 .box_shadow img
 {
 	box-shadow: 0 0 10% 10% black inset;;
+}
+
+.image.fit_hover img {
+	border-radius: 10px;
+	transition: 0.3s;
+	filter: brightness(0.9);
+}
+
+.box_shadow
+{
+	border-radius: 0px;
+}
+
+img
+{
+	border-radius: 10px;
+}
+
+.fit_hover img:hover
+{
+	border-radius: 50px;
+	filter: brightness(1.1);
+
+}
+
+.display_img_col
+{
+	width: 100%;
+
+}
+
+.proj_details table
+{
+	display: block;
+	padding: 0%;
+}
+
+.spacer
+{
+	width: 100%;
+}
+
+.space_text
+{
+	padding-right: 10px;
+}
+
+tr
+{
+	padding: -20px;
+}
+
+h4
+{
+	line-height: normal;
 }
