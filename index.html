@@ -13,6 +13,9 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/imported.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Fast Youtube -->
+		<link rel="stylesheet" href="assets/fast-yt/lite-yt-embed.css" />
+		<script src="assets/fast-yt/lite-yt-embed.js"></script>
 	</head>
 	<body class="is-preload">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -118,7 +121,7 @@
 
 							<article id="eliza" class="panel proj">
 								<br>
-								<h2 class="project_title">You Are Eliza</h2>
+								<h2 class="center_title">You Are Eliza</h2>
 								<br>
 
 								<div class="row">
@@ -151,6 +154,44 @@
 										</a>
 									</div>
 								</div>
+								<br>
+								<h3 class="center_title">Video</h3>
+								<hr class="breaker">
+								<div class="embed_video">
+									<lite-youtube videoid="B6vhIXDIdMc" params="controls=1"></lite-youtube>
+								</div>
+								<h3 class="center_title">Screenshots</h3>
+								<hr class="breaker">
+								<div class="row">
+									<div class="col-4 col-6-medium col-12-small">
+										<a class="image fit_hover pop"><img src="images/pic05.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a class="image fit_hover pop"><img src="images/pic06.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a class="image fit_hover pop"><img src="images/pic07.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a class="image fit_hover pop"><img src="images/pic08.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a class="image fit_hover pop"><img src="images/pic09.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a class="image fit_hover pop"><img src="images/pic10.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a class="image fit_hover pop"><img src="images/pic11.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a class="image fit_hover pop"><img src="images/pic12.jpg" alt=""></a>
+									</div>
+								</div>
+								<br>
+								<h3 class="center_title">Process</h3>
+								<hr class="breaker">
+								<p>Sample Text</p>
 
 							</article>
 
@@ -202,6 +243,19 @@
 
 					</div>
 
+					<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content image_modal">
+					      <div class="modal-body">
+							<!--
+					      	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							-->
+							<img src="" class="imagepreview" style="width: 100%;" >
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="copyright">
@@ -210,6 +264,7 @@
 					</div>
 
 			</div>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

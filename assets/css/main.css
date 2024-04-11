@@ -1783,7 +1783,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #00aeff;
+			color: #ffffff;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
@@ -2209,7 +2209,7 @@ input, select, textarea {
 	font-size: 12pt
 }
 
-.project_title
+.center_title
 {
 	display: block;
 	text-align: center;
@@ -2267,7 +2267,7 @@ img
 
 .space_text
 {
-	padding-right: 10px;
+	padding-right: 20px;
 }
 
 tr
@@ -2300,4 +2300,28 @@ h4
 	border-radius: 10px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
+}
+
+
+.embed_video
+{
+	margin: auto;
+	width: 80%
+}
+
+.image_modal
+{
+	background-color: black;
+}
+
+.close
+{
+	border-radius: 5px;
+	padding: 0.3em 1em 0.3em 1em;
+	margin-bottom: 0.5em;
+}
+
+.breaker
+{
+	margin: 1em 0em 0em 0em;
 }
