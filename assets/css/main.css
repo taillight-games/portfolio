@@ -7,6 +7,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+:root {
+	--main-bg-color: #17171d;
+  }
+  
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1325,10 +1330,10 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: "Fira Sans", sans-serif;
 		font-weight: 300;
 		color: #c4c4c4;
-		font-size: 20pt;
+		font-size: 16pt;
 		line-height: 1.75em;
 	}
 
@@ -1351,7 +1356,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body, input, textarea, select {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -1813,7 +1818,7 @@ input, select, textarea {
 				bottom: -0.75em;
 				margin-left: -0.5em;
 				/* MAIN COLOR */
-				border-bottom: solid 0em #000000;
+				border-bottom: solid 0em var(--main-bg-color);
 				border-left: solid 0.5em transparent;
 				border-right: solid 0.5em transparent;
 				-moz-transition: border-bottom-width .25s ease-in-out;
@@ -1955,8 +1960,8 @@ input, select, textarea {
 		overflow: hidden;
 		width: 100%;
 		/* 	MAIN COLOR */
-		background: #000000;
-		box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 1);
+		background: var(--main-bg-color);
+		box-shadow: 0px 0px 5px 5px var(--main-bg-color);
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-ms-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
@@ -2260,6 +2265,12 @@ img
 	padding: 0%;
 }
 
+.proj_details td
+{
+	padding-bottom: 0.5em;
+
+}
+
 .spacer
 {
 	width: 100%;
@@ -2268,11 +2279,6 @@ img
 .space_text
 {
 	padding-right: 20px;
-}
-
-tr
-{
-	padding: -20px;
 }
 
 h4
@@ -2324,4 +2330,31 @@ h4
 .breaker
 {
 	margin: 1em 0em 0em 0em;
+}
+
+.modal-dialog
+{
+	max-width: 70%;
+
+}
+
+.proj_desc
+{
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.wrapper-1
+{
+	width: 45em;
+}
+
+.wrapper-2
+{
+	width: 60em
+}
+
+.wrapper-3
+{
+
 }
