@@ -10,7 +10,7 @@
 :root {
 	--main-bg-color: #17171d;
   }
-
+  
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1923,6 +1923,11 @@ input, select, textarea {
 				max-width: calc(100% - 6em);
 			}
 
+			.up_left_image
+			{
+				width: 20%;
+			}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -1930,6 +1935,11 @@ input, select, textarea {
 			#wrapper {
 				padding: 1.5em 0;
 				max-width: calc(100% - 8em);
+			}
+
+			.up_left_image
+			{
+				width: 20%;
 			}
 
 		}
@@ -1941,6 +1951,11 @@ input, select, textarea {
 				max-width: calc(100% - 2em);
 			}
 
+			.up_left_image
+			{
+				width: 30%;
+			}
+
 		}
 
 		@media screen and (max-width: 360px) {
@@ -1948,6 +1963,11 @@ input, select, textarea {
 			#wrapper {
 				padding: 1em 0;
 				max-width: 100%;
+			}
+
+			.up_left_image
+			{
+				width: 30%;
 			}
 
 		}
@@ -2103,7 +2123,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 1;
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
-					padding: 3.5em 2.5em;
+					padding: 1em 1em 1em 1em;
 					margin-bottom: 0;
 					width: 100%;
 				}
@@ -2116,7 +2136,6 @@ input, select, textarea {
 					#main > .panel.intro header p {
 						letter-spacing: -0.015em;
 						font-size: 1.25em;
-						margin: 0.25em 0 0 0;
 					}
 
 				@media screen and (max-width: 980px) {
@@ -2279,7 +2298,6 @@ img
 .space_text
 {
 	padding-right: 20px;
-	min-width: 8em;
 }
 
 h4
@@ -2353,4 +2371,27 @@ h4
 .wrapper-3
 {
 
+}
+
+.banner_image
+{
+	width: 50%;
+
+}
+
+.main_image
+{
+	width: 100%;
+}
+
+.up_left_image
+{
+	position: fixed;
+	width: 4em;
+	margin: 1em 1em 1em 1em;
+}
+
+.main_p
+{
+	margin-left: 2em;
 }
