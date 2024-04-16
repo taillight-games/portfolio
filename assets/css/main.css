@@ -10,7 +10,7 @@
 :root {
 	--main-bg-color: #17171d;
   }
-  
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2273,12 +2273,13 @@ img
 
 .spacer
 {
-	width: 100%;
+	max-width: 50%;
 }
 
 .space_text
 {
 	padding-right: 20px;
+	min-width: 8em;
 }
 
 h4
