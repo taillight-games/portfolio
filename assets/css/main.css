@@ -2406,3 +2406,17 @@ h4
 {
 	margin-left: 10%;
 }
+
+.profile_links a
+{
+	color: white;
+	text-decoration: none;
+}
+
+
+svg
+{
+	width: 2em;
+	height: 2em;
+}
+
