@@ -241,7 +241,7 @@ input, select, textarea {
 		}
 
 			.row.gtr-25 > * {
-				padding: 0.3125em 0 0 0.3125em;
+				padding: 0.156em 0.156em 0.156em 0.156em;
 			}
 
 			.row.gtr-25.gtr-uniform {
@@ -258,7 +258,7 @@ input, select, textarea {
 		}
 
 			.row.gtr-50 > * {
-				padding: 0.625em 0 0 0.625em;
+				padding: 0.3125em 0.3125em 0.3125em 0.3125em;
 			}
 
 			.row.gtr-50.gtr-uniform {
@@ -271,11 +271,11 @@ input, select, textarea {
 
 		.row {
 			margin-top: -1.25em;
-			margin-left: -1.25em;
+			
 		}
 
 			.row > * {
-				padding: 1.25em 0 0 1.25em;
+				padding: 0.625em 0.625em 0.625em 0.625em;
 			}
 
 			.row.gtr-uniform {
@@ -292,7 +292,7 @@ input, select, textarea {
 		}
 
 			.row.gtr-150 > * {
-				padding: 1.875em 0 0 1.875em;
+				padding: 0.9375em 0.9375em 0.9375em 0.9375em;
 			}
 
 			.row.gtr-150.gtr-uniform {
@@ -309,7 +309,7 @@ input, select, textarea {
 		}
 
 			.row.gtr-200 > * {
-				padding: 2.5em 0 0 2.5em;
+				padding: 1.25em 1.25em 1.25em 1.25em;
 			}
 
 			.row.gtr-200.gtr-uniform {
@@ -501,7 +501,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-50 > * {
-						padding: 0.625em 0 0 0.625em;
+						padding: 0.3125em 0.3125em 0.3125em 0.3125em;
 					}
 
 					.row.gtr-50.gtr-uniform {
@@ -514,11 +514,11 @@ input, select, textarea {
 
 				.row {
 					margin-top: -1.25em;
-					margin-left: -1.25em;
+					
 				}
 
 					.row > * {
-						padding: 1.25em 0 0 1.25em;
+						padding: 0.625em 0.625em 0.625em 0.625em;
 					}
 
 					.row.gtr-uniform {
@@ -535,7 +535,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-150 > * {
-						padding: 1.875em 0 0 1.875em;
+						padding: 0.9375em 0.9375em 0.9375em 0.9375em;
 					}
 
 					.row.gtr-150.gtr-uniform {
@@ -552,7 +552,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-200 > * {
-						padding: 2.5em 0 0 2.5em;
+						padding: 1.25em 1.25em 1.25em 1.25em;
 					}
 
 					.row.gtr-200.gtr-uniform {
@@ -729,7 +729,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-25 > * {
-						padding: 0.3125em 0 0 0.3125em;
+						padding: 0.15em 0.15em 0.15em 0.15em;
 					}
 
 					.row.gtr-25.gtr-uniform {
@@ -746,7 +746,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-50 > * {
-						padding: 0.625em 0 0 0.625em;
+						padding: 0.3em 0.3em 0.3em 0.3em;
 					}
 
 					.row.gtr-50.gtr-uniform {
@@ -759,11 +759,11 @@ input, select, textarea {
 
 				.row {
 					margin-top: -1.25em;
-					margin-left: -1.25em;
+					
 				}
 
 					.row > * {
-						padding: 1.25em 0 0 1.25em;
+						padding: 0.75em 0.75em 0.75em 0.75em;
 					}
 
 					.row.gtr-uniform {
@@ -780,7 +780,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-150 > * {
-						padding: 1.875em 0 0 1.875em;
+						padding: 0.94em 0.94em 0.94em 0.94em;
 					}
 
 					.row.gtr-150.gtr-uniform {
@@ -797,7 +797,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-200 > * {
-						padding: 2.5em 0 0 2.5em;
+						padding: 1.25em 1.25em 1.25em 1.25em;
 					}
 
 					.row.gtr-200.gtr-uniform {
@@ -974,7 +974,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-25 > * {
-						padding: 0.3125em 0 0 0.3125em;
+						padding: 0.156em 0.156em 0.156em 0.156em;
 					}
 
 					.row.gtr-25.gtr-uniform {
@@ -991,7 +991,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-50 > * {
-						padding: 0.625em 0 0 0.625em;
+						padding: 0.312em 0.312em 0.312em 0.312em;
 					}
 
 					.row.gtr-50.gtr-uniform {
@@ -1004,11 +1004,11 @@ input, select, textarea {
 
 				.row {
 					margin-top: -1.25em;
-					margin-left: -1.25em;
+					
 				}
 
 					.row > * {
-						padding: 1.25em 0 0 1.25em;
+						padding: 0.625em 0.625em 0.625em 0.625em;
 					}
 
 					.row.gtr-uniform {
@@ -1025,7 +1025,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-150 > * {
-						padding: 1.875em 0 0 1.875em;
+						padding: 0.9375em 0.9375em 0.9375em 0.9375em;
 					}
 
 					.row.gtr-150.gtr-uniform {
@@ -1042,7 +1042,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-200 > * {
-						padding: 2.5em 0 0 2.5em;
+						padding: 1.25em 1.25em 1.25em 1.25em;
 					}
 
 					.row.gtr-200.gtr-uniform {
@@ -1219,7 +1219,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-25 > * {
-						padding: 0.3125em 0 0 0.3125em;
+						padding: 0.156em 0.156em 0.156em 0.156em;
 					}
 
 					.row.gtr-25.gtr-uniform {
@@ -1236,7 +1236,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-50 > * {
-						padding: 0.625em 0 0 0.625em;
+						padding: 0.3125em 0.3125em 0.3125em 0.3125em;
 					}
 
 					.row.gtr-50.gtr-uniform {
@@ -1249,11 +1249,11 @@ input, select, textarea {
 
 				.row {
 					margin-top: -1.25em;
-					margin-left: -1.25em;
+					
 				}
 
 					.row > * {
-						padding: 1.25em 0 0 1.25em;
+						padding: 0.625em 0.625em 0.625em 0.625em;
 					}
 
 					.row.gtr-uniform {
@@ -1270,7 +1270,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-150 > * {
-						padding: 1.875em 0 0 1.875em;
+						padding: 0.9375em 0.9375em 0.9375em 0.9375em;
 					}
 
 					.row.gtr-150.gtr-uniform {
@@ -1287,7 +1287,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-200 > * {
-						padding: 2.5em 0 0 2.5em;
+						padding: 1.25em 1.25em 1.25em 1.25em;
 					}
 
 					.row.gtr-200.gtr-uniform {
@@ -2353,7 +2353,7 @@ h4
 
 .breaker
 {
-	margin: 1em 0em 0em 0em;
+	margin: 1em 0em 0em 0em;	
 }
 
 .modal-dialog
@@ -2405,14 +2405,38 @@ h4
 .profile_links
 {
 	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .profile_links a
 {
-	color: white;
 	text-decoration: none;
 }
 
+.profile_links .col-6
+{
+	min-width: 8em;
+}
+
+.profile_links h3
+{
+	color: white;
+	text-align: center;
+	display: block;
+}
+
+.profile_links .col-6 h3
+{
+	background-color: #2c2d30;
+	border-radius: 10px;
+	padding: 0.7em 0.4em 0.7em 0.4em;
+	transition: 0.3s;
+}
+
+.profile_links .col-6 h3:hover
+{
+	background-color: #444444;
+}
 
 svg
 {
