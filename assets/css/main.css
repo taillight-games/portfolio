@@ -2444,3 +2444,76 @@ svg
 	height: 2em;
 }
 
+.waterfall {
+	-webkit-animation: bg-scrolling-reverse 60s infinite;
+	/* Safari 4+ */
+	-moz-animation: bg-scrolling-reverse 60s infinite;
+	/* Fx 5+ */
+	-o-animation: bg-scrolling-reverse 60s infinite;
+	/* Opera 12+ */
+	animation: bg-scrolling-reverse 60s infinite;
+	/* IE 10+ */
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+.paused
+{
+	animation-play-state: paused;
+}
+
+@-webkit-keyframes bg-scrolling-reverse {
+100% {
+	background-position: 0px 1024px;
+}
+}
+@-moz-keyframes bg-scrolling-reverse {
+100% {
+	background-position: 0px 1024px;
+}
+}
+@-o-keyframes bg-scrolling-reverse {
+100% {
+	background-position: 0px 1024px;
+}
+}
+@keyframes bg-scrolling-reverse {
+100% {
+	background-position: 0px 1024px;
+}
+}
+@-webkit-keyframes bg-scrolling {
+0% {
+	background-position: 0px 1024px;
+}
+}
+@-moz-keyframes bg-scrolling {
+0% {
+	background-position: 0px 1024px;
+}
+}
+@-o-keyframes bg-scrolling {
+0% {
+	background-position: 0px 1024px;
+}
+}
+@keyframes bg-scrolling {
+0% {
+	background-position: 0px 1024px;
+}
+}
+
+#toggleButton
+{
+	background-color: #0000009a;
+	color:#929292;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+#toggleButton:hover
+{
+	background-color: #3333339a;
+}

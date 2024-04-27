@@ -217,3 +217,12 @@ $(function() {
 			$('#imagemodal').modal('show');
 		});
 });
+
+
+const toggleButton = document.getElementById('toggleButton');
+const main_body = document.getElementById('main-body');
+
+toggleButton.addEventListener('click', function() {
+  main_body.classList.toggle('paused');
+  toggleButton.textContent = main_body.classList.contains('paused') ? 'Enable Motion' : 'Disable Motion';
+});
