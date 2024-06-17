@@ -84,6 +84,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		
 	}
 
 		.row > * {
@@ -2516,4 +2517,14 @@ svg
 #toggleButton:hover
 {
 	background-color: #3333339a;
+}
+
+.pfp
+{
+	border-radius: 200px;
+}
+
+.around-row
+{
+	justify-content: space-around;
 }
