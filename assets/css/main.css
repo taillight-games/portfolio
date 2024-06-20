@@ -28,7 +28,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1333,7 +1333,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: "Fira Sans", sans-serif;
 		font-weight: 300;
-		color: #c4c4c4;
+		color: #cecece;
 		font-size: 16pt;
 		line-height: 1.75em;
 	}
@@ -2284,17 +2284,27 @@ img
 
 }
 
-.proj_details table
+table.proj_details
 {
-	display: block;
+	vertical-align:sub;
+}
+
+.proj_details tr
+{
+	
 	padding: 0%;
+	border-bottom: 1px solid rgb(70, 70, 70);
+	border-collapse: collapse;
 }
 
 .proj_details td
 {
-	padding-bottom: 0.5em;
-
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
+	align-items: flex-end;
 }
+
+
 
 .spacer
 {
@@ -2528,3 +2538,14 @@ svg
 {
 	justify-content: space-around;
 }
+
+.img_desc
+{
+	text-align: center;
+}
+
+.center-items div
+{
+	margin: auto;
+}
+

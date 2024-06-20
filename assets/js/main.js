@@ -212,7 +212,16 @@
 })(jQuery);
 
 $(function() {
+	/*
 		$('.pop').on('click', function() {
+			console.log("pop clicked")
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');
+		});
+*/
+
+		$('article').on('click', '.pop', function() {
+			console.log("pop clicked")
 			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
 			$('#imagemodal').modal('show');
 		});
